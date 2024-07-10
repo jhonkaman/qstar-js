@@ -1,0 +1,10 @@
+// jsconfig.json
+{
+  "compilerOptions": {
+    "checkJs": true
+  },
+  "include": [
+    "./**/*",
+    "./global-types.d.ts"
+  ]
+}
