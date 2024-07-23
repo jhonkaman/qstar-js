@@ -1,7 +1,7 @@
 // qstar.js
 
-const q = (selector) => document.querySelector(selector);
-const qq = (selector) => document.querySelectorAll(selector);
+const q = (selector, parent = document) => parent.querySelector(selector);
+const qq = (selector, parent = document) => parent.querySelectorAll(selector);
 const log = (text) => console.log(text);
 
 function random(min, max) {
